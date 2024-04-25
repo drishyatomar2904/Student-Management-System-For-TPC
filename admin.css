@@ -1,0 +1,53 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+.header
+{
+    background-color: purple;
+    line-height: 70px;
+    padding-left: 30px;
+}
+
+a,a:hover
+{
+   text-decoration: none!important;
+}
+
+.logout
+{
+    float: right;
+    padding-right: 30px;
+}
+
+ul {
+    background-color: #424a5b;
+    width: 16%;
+    position: fixed;
+    padding-top: 5%;
+    text-align: center;
+    height: 100%;
+  }
+
+  ul li 
+  {
+    list-style: none;
+    padding-bottom: 30px;
+    font-size: 15px;
+  }
+
+  ul li a
+  {
+    color: white;
+    font-weight: bold;
+  }
+  .content
+{
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+  
+  

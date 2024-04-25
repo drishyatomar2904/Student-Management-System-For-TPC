@@ -1,0 +1,161 @@
+/* Normalize margins and padding for a clean slate */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent width calculations */
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    position: fixed;
+    background-color: #81356c;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+    display: flex; /* Enables horizontal alignment of content */
+    justify-content: space-between; /* Distributes content horizontally */
+    align-items: center; /* Aligns content vertically within the nav */
+    transition: background-color 0.3s ease-in-out; /* Example transition */
+  }
+  
+  .logo {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    line-height: 70px;
+    margin-left: 10px; /* Adjust this value to create space between logo and left edge */
+  }
+  
+  /* Optional styles for navigation links */
+  nav a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding for better spacing */
+  }
+  nav a:hover {
+    color: #b388eb; /* Adjust hover color to your preference */
+  }
+  
+ ul{
+    position: relative;
+    float: right;
+    margin-right: 20px;
+ }
+
+ul li
+{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+ ul li a
+ {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+ }
+  .main_img
+  {
+    width: 100%;
+    height: 300px;
+  }
+ 
+  .section1
+  {
+    padding-top: 70px;
+  }
+
+  .welcome_img
+  {
+    width: 100%;
+    height: 250px;
+  }
+
+  .container
+  {
+    padding-top: 70px;
+  }
+
+  .t
+  {
+    width: 90%;
+    height: 200px;
+
+  }
+  
+  .label_text
+  {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+  }
+.input_deg
+{
+    width:30%;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid purple
+}
+
+.adm_int
+{
+    padding-top: 10px;
+}
+
+.input_txt
+{
+    width:30%;
+    height: 120px;
+    border-radius: 25px;
+    border: 1px solid purple
+}
+
+#submit
+{
+    position: relative;
+    width: 15%;
+    left: 5%;
+}
+
+.form_deg
+{
+    padding-top: 200px;
+}
+
+.label_deg
+{
+    display: inline-block;
+    color: purple;
+    width: 100px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+.login_form
+{
+    background-color: black;
+    width: 400px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+  
+.title_deg
+{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.body_deg
+{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+  
